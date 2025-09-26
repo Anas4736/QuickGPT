@@ -103,7 +103,7 @@ const SideBar = () => {
           <img src={assets.user_icon} className="w-7 rounded-full" alt="" />
           <p className="flex-1 text-sm dark:text-primary truncate">{user ? user.name : "Login your account"}</p>
           {user && <img src={assets.logout_icon} className="h-5 cursor-pointer hidden not-dark:invert group-hover:block"/>}
-        </div>
+        </div><div></div>
 
     </div>
   );
